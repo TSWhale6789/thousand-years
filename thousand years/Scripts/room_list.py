@@ -104,7 +104,6 @@ def join_room(target_ip):
         if target_ip in room_ips:
             room_ips.remove(target_ip)  # 移除无效IP
         if selected_ip == target_ip:
-            global selected_ip
             selected_ip = None  # 取消选中
 
 # 带图片的按钮类（复用主页的图片缩放逻辑）
